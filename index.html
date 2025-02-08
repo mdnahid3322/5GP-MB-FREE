@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ফ্রি 5 GP MB</title>
+    <!-- Font Awesome CSS সংযুক্ত করা -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>ফ্রিতে ৫ জিবি এমবি নিতে আপনার তথ্য দিন</h2>
+        <p>সরকারের তরফ থেকে ফ্রি ৫ জিবি উপভোগ করুন। শুধু আপনার নাম্বার দিন এবং রেফার করুন!</p>
+
+        <form id="submitForm">
+            <label>আপনার নাম:</label>
+            <input type="text" id="name" required placeholder="নাম লিখুন">
+
+            <label>আপনার নাম্বার:</label>
+            <input type="tel" id="number" required placeholder="01XXXXXXXXX">
+
+            <label>আপনার সিম নির্বাচন করুন:</label>
+            <select id="sim">
+                <option value="Grameen">গ্রামীণ</option>
+                <option value="Robi">রবি</option>
+                <option value="Airtel">এয়ারটেল</option>
+                <option value="Banglalink">বাংলালিংক</option>
+            </select>
+
+            <label>আপনার লিঙ্গ:</label>
+            <select id="gender">
+                <option value="মেয়ে">মেয়ে</option>
+                <option value="ছেলে">ছেলে</option>
+            </select>
+
+            <button type="submit" id="submitButton">
+                <i class="fas fa-check-circle"></i> সাবমিট করুন
+            </button>
+        </form>
+
+        <div id="popup" class="popup">
+            <p><i class="fas fa-check-circle"></i> সফলভাবে আপনার নাম্বার সাবমিট হয়েছে!</p>
+        </div>
+
+        <div class="refer">
+            <p>🔗 দ্রুত তিনজনকে রেফার করুন: <br>
+                <a href="https://nahidxsr.github.io/Taka-Gor-BD/" target="_blank">https://nahidxsr.github.io/Taka-Gor-BD/</a>
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
