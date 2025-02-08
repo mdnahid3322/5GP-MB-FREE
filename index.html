@@ -4,55 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ফ্রি 5 GP MB</title>
-    <!-- Font Awesome CSS সংযুক্ত করা -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- বাহ্যিক CSS ফাইল সংযুক্ত করা -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <div class="container">
-        <h2>ফ্রিতে ৫ জিবি এমবি নিতে আপনার তথ্য দিন</h2>
-        <p>সরকারের তরফ থেকে ফ্রি ৫ জিবি উপভোগ করুন। শুধু আপনার নাম্বার দিন এবং রেফার করুন!</p>
+        <h2>ফ্রি 5 GP MB</h2>
+        <p>সরকারের তরফ থেকে বিশেষ অফার! শুধুমাত্র সীমিত সময়ের জন্য, আপনাকে দেওয়া হচ্ছে <strong>ফ্রি 5 GB ইন্টারনেট</strong>! এই অফারটি পেতে নিচের তথ্য দিন এবং দ্রুত তিনজনকে রেফার করুন!</p>
 
-        <form id="submitForm">
-            <label>আপনার নাম:</label>
-            <input type="text" id="name" required placeholder="নাম লিখুন">
-
-            <label>আপনার নাম্বার:</label>
-            <input type="tel" id="number" required placeholder="01XXXXXXXXX">
-
-            <label>আপনার সিম নির্বাচন করুন:</label>
-            <select id="sim">
-                <option value="Grameen">গ্রামীণ</option>
-                <option value="Robi">রবি</option>
-                <option value="Airtel">এয়ারটেল</option>
-                <option value="Banglalink">বাংলালিংক</option>
-            </select>
-
-            <label>আপনার লিঙ্গ:</label>
+        <form id="mbForm">
+            <input type="text" id="name" placeholder="আপনার নাম লিখুন" required>
             <select id="gender">
-                <option value="মেয়ে">মেয়ে</option>
-                <option value="ছেলে">ছেলে</option>
+                <option value="👦 ছেলে">👦 ছেলে</option>
+                <option value="👧 মেয়ে">👧 মেয়ে</option>
+                <option value="🤖 হিজরা">🤖 হিজরা</option>
             </select>
+            <select id="sim">
+                <option value="💬 রবি">💬 রবি</option>
+                <option value="💬 গ্রামিন">💬 গ্রামিন</option>
+                <option value="💬 বাংলালিন">💬 বাংলালিন</option>
+                <option value="💬 এয়ারটেল">💬 এয়ারটেল</option>
+            </select>
+            <input type="text" id="number" placeholder="আপনার মোবাইল নাম্বার" required>
 
-            <button type="submit" id="submitButton">
-                <i class="fas fa-check-circle"></i> সাবমিট করুন
-            </button>
+            <button type="button" onclick="submitForm()">সাবমিট করুন</button>
         </form>
-
-        <div id="popup" class="popup">
-            <p><i class="fas fa-check-circle"></i> সফলভাবে আপনার নাম্বার সাবমিট হয়েছে!</p>
-        </div>
-
-        <div class="refer">
-            <p>🔗 দ্রুত তিনজনকে রেফার করুন: <br>
-                <a href="https://nahidxsr.github.io/Taka-Gor-BD/" target="_blank">https://nahidxsr.github.io/Taka-Gor-BD/</a>
-            </p>
-        </div>
     </div>
 
-    <!-- বাহ্যিক JavaScript ফাইল সংযুক্ত করা -->
     <script src="script.js"></script>
 </body>
 </html>
