@@ -5,7 +5,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 .container {
     background: white;
     width: 90%;
@@ -15,16 +14,13 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-
 h2 {
     color: #ff4d00;
 }
-
 p {
     font-size: 14px;
     color: #555;
 }
-
 input, select {
     width: 100%;
     padding: 10px;
@@ -32,7 +28,6 @@ input, select {
     border: 1px solid #ddd;
     border-radius: 5px;
 }
-
 button {
     background: linear-gradient(to right, #ff4d00, #ff8000);
     color: white;
@@ -47,16 +42,13 @@ button {
     align-items: center;
     justify-content: center;
 }
-
 button i {
     color: #1DA1F2; /* ব্লু রঙ */
     margin-right: 8px;
 }
-
 button:hover {
     background: linear-gradient(to right, #ff8000, #ff4d00);
 }
-
 .popup {
     display: none;
     background: #ff4d00;
@@ -69,16 +61,13 @@ button:hover {
     align-items: center;
     justify-content: center;
 }
-
 .popup i {
     color: #1DA1F2; /* ব্লু রঙ */
     margin-right: 8px;
 }
-
 .refer {
     margin-top: 20px;
 }
-
 .refer a {
     color: #007bff;
     text-decoration: none;
